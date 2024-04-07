@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containerMainn {
+    background-color: rgba(127, 255, 212, 0.372);
+}
+
+/* ------------------------------------------------------------------------ */
+.logoandbutton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logoandbutton img {
+    width: 50px; 
+}
+
+.brand-text {
+    margin-left: 10px;
+}
+
+.buttons {
+    margin-left: auto;
+    display: flex;
+}
+
+.buttons button {
+    width: 125px; 
+    height: 29.31px; 
+    margin-left: 10px; 
+    border: none;
+    background-color: #ffd7b5;
+    color: rgba(255, 166, 0, 0.758);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 34.65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* first section ends */
+
+/* ------------------------------------------------------ */
+.navbars {
+    background-color: #A1B28A;
+    display: flex; 
+    justify-content: space-around; 
+    padding: 10px; 
+}
+
+.navbars a {
+    color: black; 
+    text-decoration: none; 
+    padding: 10px; 
+    font-size: 26px; 
+    white-space: nowrap; 
+}
+.abc{
+    margin-top: 7px;
+}
+
+/* second section ends */
+
+/* ---------------------------------------------------------------- */
+.form-section {
+    margin: 30px 20px; /* Adjust margin as needed */
+    border: 1px solid black; /* Adjust border properties as needed */
+    background-color: rgba(161, 178, 138, 0.26); /* Background color with 26% opacity */
+}
+
+.custom-input {
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 400px;
+    height: 45px;
+    top: 512px;
+    left: 159px;
+    gap: 0px;
+    border-radius: 13.62px;
+    opacity: 0px;
+    border: 2px solid black; /* Adding a black border for visibility */
+}
+
+.custom-inputs {
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 960px;
+    height: 45px;
+    top: 512px;
+    left: 159px;
+    gap: 0px;
+    border-radius: 13.62px;
+    opacity: 0px;
+    border: 2px solid black; /* Adding a black border for visibility */
+}
+.custom-input::placeholder {
+    text-align: center; /* Center the placeholder text */
+    font-size: 20px; /* Increase the font size of the placeholder */
+    color: black;
+    font-weight: bold;
+}
+.custom-inputs::placeholder {
+    text-align: left; /* Center the placeholder text */
+    font-size: 20px; /* Increase the font size of the placeholder */
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+}
+.custom-button {
+    width: 185px;
+    height: 58px;
+    margin-top: 20px;
+    border-radius:14.71px;
+    background-color: #FF6B00;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
+/* third section ends */
+
+/* ----------------------------------------------------------------------------------------- */
+
+.preferences{
+    margin: 30px 20px; /* Adjust margin as needed */
+    border: 1px solid black; /* Adjust border properties as needed */
+    background-color: rgba(161, 178, 138, 0.26); /* Background color with 26% opacity */
+}
+.box1{
+    margin: 30px 20px; /* Adjust margin as needed */
+    border: 1px solid black; /* Adjust border properties as needed */
+    background-color: rgba(161, 178, 138, 0.26); /* Background color with 26% opacity */
+}
+.checkbocPref{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#WindowSeat {
+    margin-left: 50px;
+}
+
+#BulkheadSeat {
+    margin-left: 120px;
+}
+
+#Others {
+    margin-left: 150px;
+}
+
+#NearGalley {
+    margin-left: 100px;
+}
+
+/* fourth section ends */
+
+/* ----------------------------------------- */
+.FlightBooking {
+    position: relative; /* Add position relative for absolute positioning */
+    margin: 30px 20px; /* Adjust margin as needed */
+    border: 1px solid black; /* Adjust border properties as needed */
+    background-color: rgba(161, 178, 138, 0.26); /* Background color with 26% opacity */
+}
+
+.image-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute space between elements */
+}
+
+.left-image, .right-image {
+    flex: 0 0 auto; /* Prevent images from growing */
+    margin: 10px 80px; /* Adjust spacing between images and text */
+}
+
+.left-image img, .right-image img {
+    width: 50px; /* Set width of logos */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.details {
+    margin-top: 20px; /* Adjust margin as needed */
+    margin-left: 40px;
+    font-size: 30px;
+}
+.passenger{
+    display: flex;
+}
+
+.detailsPassenger {
+    margin-top: 45px;
+    margin-left: 40px;
+    font-size: 22px;
+}
+
+.passenger-info {
+    display: flex;
+}
+
+.passenger-info > div {
+    margin-right: 80px; /* Adjust spacing between items */
+}
+
+.passenger-info b {
+    display: block;
+    margin-bottom: 5px; /* Add some space between label and value */
+}
+.bottom{
+    margin-bottom: 40px;
+}
+/* fifth container ends */
+
+.box2{
+    margin: 30px 20px; /* Adjust margin as needed */
+    border: 1px solid black; /* Adjust border properties as needed */
+    background-color: rgba(209, 197, 154, 0.7); /* Background color with 26% opacity */
+    height: 45vh;
+}
+.custom-button {
+    width: 180px;
+    height: 70px;
+    margin-top: 65px;
+    gap: 0px;
+    border-radius: 30px;
+    opacity: 0px;
+    background-color: #F79854; /* Background color */
+    color: black; /* Text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 36px; /* Adjust font size */
+
+}
+/* ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ media query --------------------------------------- */
+
+/* first section */
+/* Media query for tablets and larger */
+@media only screen and (min-width: 768px) {
+    .buttons button {
+        width: 150px;
+        font-size: 18px;
+    }
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 767px) {
+    .logoandbutton {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logoandbutton img {
+        margin-bottom: 10px;
+    }
+
+    .buttons {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .buttons button {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+/* second section */
+
+/* Media query for tablets and larger */
+@media only screen and (min-width: 768px) {
+    .navbars a {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 767px) {
+    .navbars {
+        flex-wrap: wrap;
+    }
+
+    .navbars a {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+}
+/* third section */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .custom-input {
+        width: calc(50% - 30px); /* Adjust input width for tablets */
+        margin-left: 15px; /* Adjust margin for tablets */
+    }
+      .custom-inputs {
+        width: 95%; /* Adjust input width for tablets */
+        margin-left: 15px; /* Adjust margin for tablets */
+    }
+    
+
+    .custom-button {
+        margin-left: calc(50% - 92.5px); /* Center button horizontally */
+        font-size: x-large;
+    }
+}
+/* Media query for smaller screens */
+@media only screen and (max-width: 767px) {
+    .form-section {
+        margin: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .custom-input, .custom-inputs {
+        width: calc(100% - 30px); /* Adjust input width for smaller screens */
+        margin-left: 15px; /* Adjust margin for smaller screens */
+    }
+
+    .custom-button {
+        margin-left: calc(50% - 92.5px); /* Center button horizontally */
+    }
+}
+/* fourth section */
+
+/* Media query for tablets and larger */
+@media only screen and (min-width: 768px) {
+    .box1 {
+        width: 95%; /* Adjust width for tablets */
+        margin: 30px 0; /* Adjust margin for tablets */
+    }
+
+    .checkbocPref {
+        font-size: 25px; /* Decrease font size for tablets */
+    }
+
+    /* Adjust margin for checkboxes on tablets */
+    #WindowSeat {
+        margin-left: 30px;
+    }
+
+    #BulkheadSeat {
+        margin-left: 70px;
+    }
+
+    #Others {
+        margin-left: 90px;
+    }
+
+    #NearGalley {
+        margin-left: 60px;
+    }
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 767px) {
+    .box1 {
+        width: calc(100% - 40px); /* Adjust width for small screens */
+        margin: 20px 10px; /* Adjust margin for small screens */
+    }
+
+    .checkbocPref {
+        font-size: 18px; /* Decrease font size for small screens */
+    }
+
+    /* Adjust margin for checkboxes on small screens */
+    #WindowSeat {
+        margin-left: 20px;
+    }
+
+    #BulkheadSeat {
+        margin-left: 50px;
+    }
+
+    #Others {
+        margin-left: 70px;
+    }
+
+    #NearGalley {
+        margin-left: 40px;
+    }
+}
+
+/* fifth section */
+/* Media query for tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .left-image, .right-image {
+        margin: 10px 40px; /* Adjust margin for tablets */
+    }
+
+    .details, .detailsPassenger {
+        margin-left: 20px; /* Adjust margin for tablets */
+    }
+
+    .passenger-info > div {
+        margin-right: 60px; /* Adjust margin for tablets */
+    }
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 767px) {
+    .image-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-image, .right-image {
+        margin: 10px 0;
+    }
+
+    .details, .detailsPassenger {
+        margin-left: 0;
+        text-align: center;
+        font-size: 18px; /* Adjust font size for small screens */
+    }
+
+    .passenger-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .passenger-info > div {
+        margin: 10px;
+    }
+
+    .passenger-info b {
+        margin-bottom: 5px;
+    }
+}
+
+/* last section */
+/* Media query for tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .box2 {
+        height: 35vh; /* Adjust height for tablets */
+    }
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 767px) {
+    .lastContainer {
+        text-align: left; /* Center text for small screens */
+        margin-left: -150px;
+    }
+
+    .box2 {
+        height: auto; /* Auto height for small screens */
+    }
+
+    .custom-button {
+        width: 150px; /* Adjust button width for small screens */
+        height: 50px; /* Adjust button height for small screens */
+        margin-top: 20px; /* Adjust margin-top for better positioning */
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+}
