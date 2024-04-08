@@ -41,7 +41,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     height: 15vh;
-    width: 98.5%;
+    width: 96vw;
     background-color: #A1B28A;
     padding-left: 2vw;
 
@@ -52,9 +52,9 @@ body{
 a{
     text-decoration: none;
     font-family: Inika;
-    font-size: 30px;
+    font-size: 2.5vw;
     font-weight: 400;
-    line-height: 47.37px;
+    line-height: 3vw;
     text-align: left;
     color: black;
 
@@ -72,7 +72,7 @@ span{
 
 span > h1{
     font-family: Kumar One;
-font-size: 71.28px;
+font-size: 5vw;
 font-weight: 400;
 line-height: 10px;
 text-align: left;
@@ -97,7 +97,7 @@ span > img{
 }
 
 #login-form{
-    width: 60%;
+    width: 60vw;
     /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
@@ -120,8 +120,8 @@ span > img{
 }
 
 input{
-    width: 354.6px;
-    height: 65.35px;
+    width: 35vw;
+    height: 10vh;
     /* top: 649px; */
     /* left: 258px; */
     gap: 0px;
@@ -142,7 +142,7 @@ input{
 
 #login-form > h2{
     font-family: Kadwa;
-    font-size: 46.3px;
+    font-size: 4vw;
     font-weight: 400;
     line-height: 92.96px;
     text-align: left;
@@ -152,7 +152,7 @@ input{
 
 #login-form > h1{
     font-family: Judson;
-    font-size: 38.92px;
+    font-size: 4vw;
     font-weight: 400;
     line-height: 44.76px;
     text-align: left;
@@ -173,7 +173,7 @@ input{
     background-color: #FF6B00AB;
 
     font-family: Judson;
-    font-size: 38.92px;
+    font-size: 5vw;
     font-weight: 400;
     line-height: 44.76px;
     /* text-align: left; */
@@ -188,7 +188,7 @@ input{
 
 footer{
     background-color: #B8D3C7;
-    width: 100%;
+    width: 98vw;
     margin-top: 10vh;
   }
   .container{
@@ -202,7 +202,7 @@ footer{
   }
 
   .footerMenu ul li.FooterMenuHead{
-    font-size: 34px;
+    font-size: 3vw;
     font-weight: 600;
     font-family: Inter;
   }
