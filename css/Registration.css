@@ -76,8 +76,12 @@ h1{
     display: flex;
 }
 
+/* #reg-heading h1{
+    font-size: 10px;
+} */
+
 #reg-heading > img{
-    margin-top: 8vh;
+    margin-top: 12vh;
     height: 15vh;
     width: 8vw;
 }
@@ -86,11 +90,10 @@ h1{
 #form-lay{
 
     background-color: #A1B28A42;
-    ;
     margin: 0 auto;
     margin-top: -5vh;
     width: 50%;
-    height: 100vh;
+    height: 120vh;
     /* display: flex; */
     align-items: center;
     /* justify-content: center; */
@@ -105,7 +108,7 @@ h1{
 #form-lay > h2{
 
     font-family: Kadwa;
-font-size: 35px;
+font-size: 30px;
 font-weight: 400;
 line-height: 85.76px;
 text-align: left;
@@ -116,7 +119,7 @@ text-align: left;
 
 
 #for-two-inp > input{
-    width: 248px;
+    width: 200px;
     height: 45px;
     /* top: 700px;
     left: 215px; */
@@ -174,7 +177,7 @@ input{
 
 
 #have-an-account{
-    width: 50%;
+    width: 55%;
     /* border: 2px solid red; */
     display: flex;
 }
@@ -208,109 +211,119 @@ input{
 
 }
 
-.footer{
+footer{
+    background-color: #B8D3C7;
     width: 100%;
-    height: 70vh;
-    background: #B8D3C7;
-    justify-content: space-between; 
-    margin-top: 20vh;
+    margin-top: 10vh;
+  }
+  .container{
+    height: 90vh;
+  }
 
-}
-
-
- #seconddiv{
+  .footerMenu{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 100px;
-    margin-top: 3%;
+    justify-content: space-between;
+/*     padding: 30px 0; */
+  }
 
-}   
-#seconddiv h2{
-    font-family: "inter";
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #000000;
-    transform: translate(20px);
-    margin-top: 10%;
+  .footerMenu ul li.FooterMenuHead{
+    font-size: 34px;
+    font-weight: 600;
     font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24.2px;
-    text-align: left;
-
-}
-
-#seconddiv-div{
-
-    width: 30vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-#seconddiv h1{
-    font-family: "inter";
-    height: 36.33px;
-    font-size: 24.5px;
-    font-weight: 500;
-    line-height: 38px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #000000;
-    margin-top: 30px;
-    font-family: Inter;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 38.73px;
-    text-align: left;
-}
-#seconddiv .head1{
-    transform: translate(10px);
-}
-#seconddiv .firsttagline{
+  }
+   .footerMenu ul li#footerhead2{
+    transform: translate(-40px);
+   }
+    .footerMenu ul li#footerhead3{
     transform: translate(-20px);
- }
- 
-#seconddiv .head3{
-    transform: translate(7px);
+   }
+    .footerMenu ul li#footerhead4{
+    transform: translate(-20px);
+   }
+    .footerMenu ul li#footercontent2{
+    transform: translate(-30px);
+   }
+
+  .addrees{
+    max-width: 320px;
+    line-height: 50px;
+  }
+
+  .footerMenu ul{
+    list-style: none;
+  }
+
+  .footerMenu ul a{
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+  }
+
+  .footerMenu ul li{
+/*     font-size: 30px; */
+/*     margin-bottom: 20px; */
+/*     line-height: 32px; */
+margin-top: 30px;
+  }
+
+  .socialIcons{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding-bottom: 50px; */
 }
-.footer .Socialicons{
-    font-family: "josefin Sans";
-    font-size: 5px;
+
+  .socialIcons h3{
+    font-size: 30px;
+    font-weight: 600;
+/* transform: translate(17vw); */
+    font-family: Inter;
     margin-top: -10vh;
     margin-left: 15vw;
-   
-} 
-.Socialicons #icons{
+  }
+
+  #icons{
+    margin-top: -14vh;
+  }
+
+  .socialIcons a{
+    margin: 0 20px;
+  }
+
+
+  .copyright{
+/*     width: 100%; */
+    background-color: #495023;
+    height: 10vh;
+  }
+
+  .copyright h5{
+    font-size: 26px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: center;
+    padding-top: 11px;
+     font-family: Inter;
+  }
+
+  .socialIcons #icons{
+    transform: translate(15px);
     gap: 30px;
-    margin-top: -16 vh;
-    margin-left: 32vw;
+/*     margin-top: -19px; */
     display: flex;
-    font-size: 30px;
 }
+  /* footer end */
 
 .copyright{
    background-color: #495023;
     text-align: center;
-    height: 12vh;
+    height: 10vh;
+    /* margin-top: 10vh; */
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-}
-
-.copyright > h1{
     color: #FFFFFF;
- 
-    font-family: Inter;
-    font-size: 42px;
-    font-weight: 700;
-    line-height: 50.83px;
-    text-align: left;
-
+    font-family: "inter";
+    font-size: 12px;
 }
