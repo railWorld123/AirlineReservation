@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    background-color: #E6F5F1;
+    padding: 0px;
+}
+#logo-section{
+    /* margin-top: 1vh; */
+}
+
+#logo-section-inside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+
+#logo-side{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+#logo-side > img{
+    height: 4vh;
+    width: 2vw;
+}
+
+#search-side > img{
+    height: 5vh;
+    width: 8vw;
+}
+
+#container_one {
+    background: #F6FDFB;
+    font-size: 3vh;
+    display: flex;
+}
+
+#container_one h2{
+    margin-left: 30px;
+}
+
+.explain {
+    margin: 25px 32px;
+    font-size: 20px;
+    font-family: Inika;
+}
+
+
+  /* footer */
+
+  footer{
+    background-color: #B8D3C7;
+    width: 100%;
+  }
+  .container{
+    height: 59vh;
+  }
+
+  .footerMenu{
+    display: flex;
+    justify-content: space-between;
+/*     padding: 30px 0; */
+  }
+
+  .footerMenu ul li.FooterMenuHead{
+    font-size: 34px;
+    font-weight: 600;
+    font-family: Inter;
+  }
+   .footerMenu ul li#footerhead2{
+    transform: translate(-40px);
+   }
+    .footerMenu ul li#footerhead3{
+    transform: translate(-20px);
+   }
+    .footerMenu ul li#footerhead4{
+    transform: translate(-20px);
+   }
+    .footerMenu ul li#footercontent2{
+    transform: translate(-30px);
+    }
+    .addrees{
+        max-width: 320px;
+        line-height: 50px;
+      }
+    
+      .footerMenu ul{
+        list-style: none;
+      }
+    
+      .footerMenu ul a{
+        text-decoration: none;
+        color: #000;
+        font-size: 24px;
+      }
+    
+      .footerMenu ul li{
+    /*     font-size: 30px; */
+    /*     margin-bottom: 20px; */
+    /*     line-height: 32px; */
+    margin-top: 30px;
+      }
+    
+      .socialIcons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    
+      .socialIcons h3{
+        font-size: 30px;
+        font-weight: 600;
+    /* transform: translate(17vw); */
+        font-family: Inter;
+    }
+
+    .socialIcons a{
+      margin: 0 20px;
+    }
+  
+  
+    .copyright{
+  /*     width: 100%; */
+      background-color: #495023;
+      height: 10vh;
+    }
+  
+    .copyright h5{
+      font-size: 26px;
+      font-weight: 600;
+      color: #FFF;
+      text-align: center;
+      padding-top: 11px;
+       font-family: Inter;
+    }
+  
+    .socialIcons #icons{
+      transform: translate(15px);
+      gap: 30px;
+  /*     margin-top: -19px; */
+      display: flex;
+  }
+    /* footer end */
