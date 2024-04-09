@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@100..900&family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@100..900&family=Irish+Grover&family=Itim&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Irish+Grover&family=Itim&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+   width: 100%;
+  
+}
+
+.flyHubHeader {
+   width: 100%;
+}
+
+.logoHeader {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 2rem;
+   margin-right: 2rem;
+   margin-bottom: 2rem;
+   height: 2rem;
+}
+
+.logoHeader a {
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+}
+
+.logoHeader a img {
+   max-width: 50px;
+   margin-right: 20px;
+}
+
+
+.logo {
+   font-family: Irish Grover;
+   font-size: 35px;
+   color: #000000;
+}
+
+.navBar{
+   width: 100%;
+   margin-left: 0;
+   font-family: inika;
+   
+}
+.navBar ul li a {
+   text-decoration: none;
+   color: #000;
+}
+.navBar ul li {
+   text-align: center;
+   font-size: 32px;
+   font-weight: 500;
+   padding: 20px 0;
+   margin: auto;
+   text-transform: capitalize;
+}
+header {
+   padding-top: 50px;
+   background-color: #E6F5F1;
+}
+.navBar ul {
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   background-color: #A1B28A;
+   margin-top: 20px;
+}
+
+/* footer */
+
+ footer{
+   background-color: #B8D3C7;
+ }
+
+ .footerMenu{
+   display: flex;
+   justify-content: space-between;
+   padding: 30px 0;
+ }
+
+ .footerMenu ul li.FooterMenuHead{
+   font-size: 40px;
+   font-weight: 600;
+ }
+
+ .addrees{
+   max-width: 320px;
+ }
+
+ .footerMenu ul{
+   list-style: none;
+ }
+
+ .footerMenu ul a{
+   text-decoration: none;
+   color: #000;
+ }
+
+ .footerMenu ul li{
+   font-size: 30px;
+   margin-bottom: 20px;
+   line-height: 42px;
+ }
+
+ .socialIcons{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 50px;
+   background-color: #B8D3C7;
+}
+
+ .socialIcons h3{
+   font-size: 40px;
+   font-weight: 600;
+   margin-right: 30px;
+ }
+
+ .socialIcons a{
+   margin: 0 20px;
+ }
+.socialIcons a img{
+  width: 33px;
+  height: 33px;
+}
+
+ .copyright{
+   background-color: #495023;
+   padding: 40px 0;
+ }
+
+ .copyright h5{
+   font-size: 35px;
+   font-weight: 600;
+   color: #FFF;
+   text-align: center;
+ }
+ /* footer end */
+ /* main container */
+.contain{
+   width: 100%;
+   height: 2700px;
+   background-color:rgb(227, 220, 220,1);
+   position: relative;
+
+}
+.main-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+.main-container{
+    width: 1440;
+    height: 5674;
+    background-color: #E6F5F1;
+}
+.about-flyhub{
+    font-size: 33px;
+    margin: 2rem;
+    padding-top: 2rem;
+}
+.about-flyhub h2{
+    padding-top: 2rem;
+}
+.main-img{
+    padding-right: 1rem;
+}
+.team-manage h1{
+    color: #AA0D0D;
+    font-style: inherit;
+    text-align: center;
+    padding: 2rem;
+    font-size:40px ;
+}
+.flyhub-member{
+    display: flex;
+    margin: 2rem;
+    padding-top: 12rem;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+.member-contain{
+    width: 677px;
+    height: 700px;
+    background-color: #78939B;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 12rem;
+    
+}
+.member-contain h3{
+    padding-top: 6rem;
+}
+.member-contain h4{
+    /* padding-top: 1rem; */
+    margin: 1rem;
+    color: #AA0D0D;
+    font-size: 27px;
+    font-style:initial;
+}
+.member-contain p{
+    margin: 2rem;
+    text-align: center;
+}
+
+.head-bar{
+    width: 100%;
+    height: 340px;
+    background-color: rgb(197, 71, 94,1);
+    
+
+}
+
+.img{
+    top:0;
+    left: 0;
+    opacity: 0.9;
+    margin: -250px auto;
+    z-index: 9;
+    width: 491px;
+    height: 452px;  
+}
+.team-member{
+    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.flyhub-item{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+.exp-contain{
+    width: 1332px;
+    height: 350px;
+    background-color: white;
+     margin: 3.5rem; 
+     font-family: iter;
+   
+}
+.exp-contain h2{
+    color: #FF6B00;
+    text-align: center;
+    padding-top: 2rem;
+}
+.exp-contain h4{
+    color: #DE9323;
+    text-align: center;
+    padding-top: 2rem;
+}
+.exp-contain h5{
+    color: #495023;
+    text-align: center;
+    padding-top: 2rem;
+}
+.item{
+    width: 1240px;
+    height: 63px;
+    background-color: #A9DF74;
+    margin: 2.5rem;
+    text-align: center;
+}
+.item h3{
+    padding-top: 1rem;
+    color: #A74467;
+    font-size: 27px;
+    font-style: inherit;
+}
