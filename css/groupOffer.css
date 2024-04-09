@@ -569,9 +569,149 @@
 
 
 
+.containerMainn {
+    background-color: rgba(127, 255, 212, 0.372);
+  }
+  
+  /* ------------------------------------------------------------------------ */
+  .logoandbutton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .logoandbutton img {
+    width: 50px; 
+  }
+  
+  .brand-text {
+    margin-left: 10px;
+    margin-top: 0vh;
+  }
+  
+  .buttons {
+    margin-left: auto;
+    display: flex;
+  }
+  
+  .buttons button {
+    width: 125px; 
+    height: 29.31px; 
+    margin-left: 10px; 
+    border: none;
+    background-color: #ffd7b5;
+    color: rgba(255, 166, 0, 0.758);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 34.65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* first section ends */
+  
+  /* ------------------------------------------------------ */
+  .navbars {
+    background-color: #A1B28A;
+    display: flex; 
+    justify-content: space-around; 
+    padding: 10px; 
+  }
+  
+  .navbars a {
+    color: black; 
+    text-decoration: none; 
+    padding: 10px; 
+    font-size: 26px; 
+    white-space: nowrap; 
+  }
+  .abc{
+    margin-top: 7px;
+  }
 
 
-
+  @media only screen and (min-width: 768px) {
+    .buttons button {
+        width: 150px;
+        font-size: 18px;
+    }
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 767px) {
+    .logoandbutton {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .logoandbutton img {
+        margin-bottom: 10px;
+    }
+  
+    .buttons {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+  
+    .buttons button {
+        width: 100%;
+        margin-left: 0;
+    }
+  }
+  /* second section */
+  
+  /* Media query for tablets and larger */
+  @media only screen and (min-width: 768px) {
+    .navbars a {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 767px) {
+    .navbars {
+        flex-wrap: wrap;
+    }
+  
+    .navbars a {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+  }
+  
+  
+  
+  
+  
+  /* Media query for tablets */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .box2 {
+        height: 35vh; /* Adjust height for tablets */
+    }
+  }
+  
+  /* Media query for small screens */
+  @media only screen and (max-width: 767px) {
+    .lastContainer {
+        text-align: left; /* Center text for small screens */
+        margin-left: -150px;
+    }
+  
+    .box2 {
+        height: auto; /* Auto height for small screens */
+    }
+  
+    .custom-button {
+        width: 150px; /* Adjust button width for small screens */
+        height: 50px; /* Adjust button height for small screens */
+        margin-top: 20px; /* Adjust margin-top for better positioning */
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+  }
 /* ---------------------------------------------RESPONSIVE_CODE_MOBILE-------------------------------------------------- */
 
 
@@ -710,5 +850,17 @@
     }
     .sec4-btn{
         height: 15%;
+    }
+}
+
+@media (min-width:600px) and (max-width:769px){
+    .para-wrapper img{
+        height: 20px;
+    }
+    .form-btn-wrapper button{
+        width: 35%;
+    }
+    .section-03{
+        height: 50vh;
     }
 }
