@@ -75,6 +75,7 @@ span{
 
     margin-top: 5vh;
     margin-left: 33vh;
+    margin-bottom: 5vh;
 }
 
 span > h1{
@@ -164,6 +165,9 @@ input{
 
     color: #FF6108;
 
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
 
     
 }
@@ -198,8 +202,13 @@ input{
 }
 
 #back-btn{
-    width: 15vw;
+    width: 25vw;
     margin-top: 5vh;
+    margin-left: 25vh;
+    font-size: 2vw;
+
+    text-decoration: none;
+    color: black;
 
 }
 
