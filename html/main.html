@@ -1,11 +1,465 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FlyHub</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
 </head>
+
 <body>
-    
+    <header>
+        <div class="container">
+            <div class="flyHubHeader">
+                <div class="logoHeader">
+                    <div class="logoDiv">
+                        <a href="" class="logo"><img src="../assets/Rectangle 1.png" alt=""> FlyHub Airline </a>
+                    </div>
+                    <div class="logSignDiv">
+                        <a href="" class="signupBtn"><img src="../assets/Rectangle 6.png" alt=""> Log In </a>
+
+                        <a href="" class="signupBtn"> |Sign Up </a>
+                    </div>
+                </div>
+                <div class="navBar">
+                    <ul>
+                        <li> <a href="">Flights</a></li>
+                        <li class="visa"> <a href="">Visa</a></li>
+                        <li> <a href="">Group Bookings</a></li>
+                        <li> <a href="">Offers</a></li>
+                        <li> <a href="">Customer Service</a></li>
+                        <li> <a href="">About Us</a></li>
+                        <li> <a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <a href="javascript:void(0)" class="MobileBtn"><img src="../assets/icons8-hamburger-menu-50.png" alt=""> </a>
+                <div class="mobilemenu">
+                    <ul>
+                        <li> <a href="">Flights</a></li>
+                        <li class="visa"> <a href="">Visa</a></li>
+                        <li> <a href="">Group Bookings</a></li>
+                        <li> <a href="">Offers</a></li>
+                        <li> <a href="">Customer Service</a></li>
+                        <li> <a href="">About Us</a></li>
+                        <li> <a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="heroSection">
+        <div class="container">
+            <div class="banner">
+                <p>
+                    Flyhub Airline reservation systems (FARS) is a system that allow an airline to sell their
+                    inventory (seats). It contains information on schedules and fares and contains a database
+                    of reservations (or passenger name records) and of tickets issued (if applicable). ARSs are
+                    part of Passenger Service System (PSS), which are applications supporting the direct
+                    contact with the passenger.
+                </p>
+                <p>
+                    FARS eventually evolved into the Computer Reservations System (CRS). A computer reservation system
+                    is used for the reservations of a particular airline and interfaces
+                    with a Global Distribution System (GDS) which supports travel agencies and other distribution
+                    channels in making reservations for most major airlines in a single system.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="flightSection">
+        <div class="container">
+            <div class="flight">
+                <h3>Flights</h3>
+                <div class="trip">
+                    <input type="radio" name="trip1" id="oneway">
+                    <label for="oneway">One Way</label>
+                    <input type="radio" name="trip1" id="roundtrip">
+                    <label for="roundtrip">Round Trip</label>
+                </div>
+                <div class="tripDetails">
+                    <form action="">
+                        <input type="text" placeholder="From">
+                        <input type="text" placeholder="To">
+                        <div class="calendarr">
+                            <div class="date-picker">
+                                <input type="text" id="datepicker" placeholder="Departure">
+                            </div>
+
+                        </div>
+                        <div class="calendar">
+                            <div class="date-picker">
+                                <input type="text" id="datepickerrr" placeholder="Arrival">
+                            </div>
+
+                        </div>
+
+                        <div class="selectionnn">
+                            <select name="" id="">
+                                <option value="" class="placeH">Passengers</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                            </select>
+                        </div>
+                        <div class="selectionnn">
+                            <select name="" id="">
+                                <option value="" class="placeH">Class</option>
+                                <option value="">Economy</option>
+                                <option value="">Premium Economy</option>
+                                <option value="">Business</option>
+                                <option value="">First Class</option>
+                            </select>
+                        </div>
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="fares">
+                    <h5>Special Fares:</h5>
+                    <input type="radio" name="fares1" id="student">
+                    <label for="student">Student</label>
+                    <input type="radio" name="fares1" id="seniorCitizen">
+                    <label for="seniorCitizen">Senior Citizen</label>
+                    <input type="radio" name="fares1" id="armedForces">
+                    <label for="armedForces">Armed Forces</label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offerSection">
+        <div class="container">
+            <h3>Today's Flight Offers</h3>
+            <div class="offerDiv">
+                <div class="offer">
+                    <img src="../assets/Rectangle 11.png" alt="">
+                </div>
+                <div class="offer">
+                    <img src="../assets/Rectangle 13.png" alt="">
+                </div>
+                <div class="offer">
+                    <img src="../assets/image 3.png" alt="">
+                </div>
+                <div class="offer">
+                    <img src="../assets/image 4.png" alt="">
+                </div>
+                <div class="offer">
+                    <img src="../assets/Rectangle 12.png" alt="">
+                </div>
+                <div class="offer">
+                    <img src="../assets/image 5.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bookingSection">
+        <div class="container">
+            <h3>Why Book with Flyhub Airlines ?</h3>
+            <div class="booking">
+                <div class="bookingDiv">
+                    <div class="autometicInner card">
+                        <img src="../assets/Rectangle 30.png" alt="">
+                        <div class="bookingContent">
+                            <h3><strong>Autometic</strong> <br>Web Check-in</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="bookingDiv">
+                    <div class="flyhubInner card">
+                        <img src="../assets/Rectangle 34.png" alt="">
+                        <div class="bookingContent">
+                            <h3><strong>flyhub airlinr assured </strong>instant & full refund</strong></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="bookingDiv">
+                    <div class="saveInner card">
+                        <img src="../assets/Rectangle 31.png" alt="">
+                        <div class="bookingContent">
+                            <h3><strong>Save upto 40%</strong> with intelligent fare alerts</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="bookingDiv">
+                    <div class="trackInner card">
+                        <img src="../assets/Rectangle 35.png" alt="">
+                        <div class="bookingContent">
+                            <h3>Track flight delay, boarding gate & baggage belt</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="bookingDiv ">
+                    <div class="supportInner card">
+                        <img src="../assets/Rectangle 36.png" alt="">
+                        <div class="bookingContent">
+                            <h3><strong>24*7</strong> <br>Support</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="bookingDiv">
+                    <div class="accommodationsInner card">
+                        <img src="../assets/Rectangle 45.png" alt="">
+                        <div class="bookingContent">
+                            <h3>Accommodations for certain travelers</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="routeSection">
+        <div class="container">
+            <div class="route">
+                <div class="citys">
+                    <div class="city">
+                        <img src="../assets/image 6.png" alt="">
+                        <div class="citycontent">
+                            <h3>Mumbai Flights</h3>
+                            <ul>
+                                <h4>To:</h4>
+                                <li class="cityDot">Goa</li>
+                                <li>Dehli</li>
+                                <li>Bangalore</li>
+                                <li>Lucknow</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="citys">
+                    <div class="city">
+                        <img src="../assets/image 7.png" alt="">
+                        <div class="citycontent">
+                            <h3>Delhi Flights</h3>
+                            <ul>
+                                <h4>To:</h4>
+                                <li class="cityDot">Goa</li>
+                                <li>Dehli</li>
+                                <li>Bangalore</li>
+                                <li>Lucknow</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="citys">
+                    <div class="city">
+                        <img src="../assets/image 8.png" alt="">
+                        <div class="citycontent">
+                            <h3>Kolkata Flights</h3>
+                            <ul>
+                                <h4>To:</h4>
+                                <li class="cityDot">Goa</li>
+                                <li>Dehli</li>
+                                <li>Bangalore</li>
+                                <li>Lucknow</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="citys">
+                    <div class="city">
+                        <img src="../assets/image 9.png" alt="">
+                        <div class="citycontent">
+                            <h3>Chennai Flights</h3>
+                            <ul>
+                                <h4>To:</h4>
+                                <li class="cityDot">Goa</li>
+                                <li>Dehli</li>
+                                <li>Bangalore</li>
+                                <li>Lucknow</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="citys">
+                    <div class="city">
+                        <img src="../assets/image 10.png" alt="">
+                        <div class="citycontent">
+                            <h3>Hyderabad Flights</h3>
+                            <ul>
+                                <h4>To:</h4>
+                                <li class="cityDot">Goa</li>
+                                <li>Dehli</li>
+                                <li>Bangalore</li>
+                                <li>Lucknow</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="citys">
+                    <div class="city">
+                        <img src="../assets/image 11.png" alt="">
+                        <div class="citycontent">
+                            <h3>Pune Flights</h3>
+                            <ul>
+                                <h4>To:</h4>
+                                <li class="cityDot">Goa</li>
+                                <li>Dehli</li>
+                                <li>Bangalore</li>
+                                <li>Lucknow</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="citys">
+                    <div class="city">
+                        <img src="../assets/image 13.png" alt="">
+                        <div class="citycontent">
+                            <h3>Lucknow Flights</h3>
+                            <ul>
+                                <h4>To:</h4>
+                                <li class="cityDot">Goa</li>
+                                <li>Dehli</li>
+                                <li>Bangalore</li>
+                                <li>Agra</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="citys">
+                    <div class="city">
+                        <img src="../assets/image 12.png" alt="">
+                        <div class="citycontent">
+                            <h3>Banglore Flights</h3>
+                            <ul>
+                                <h4>To:</h4>
+                                <li class="cityDot">Goa</li>
+                                <li>Dehli</li>
+                                <li>Agra</li>
+                                <li>Lucknow</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featuresSection">
+        <div class="container">
+            <h3>Top 20 Features of Flyhub Airline Reservation System</h3>
+            <div class="features">
+                <ol>
+                    <li>Highly personalized system.</li>
+                    <li>Canceling system for reservations.</li>
+                    <li>Assured and reliable.</li>
+                    <li>The module of Flight Investigation.</li>
+                    <li>Booking solution with API integration.</li>
+                    <li>Allow passengers to select their own seats.</li>
+                    <li>Programs for frequent flyers are supported.</li>
+                    <li>Show all of your flight options and promotions.</li>
+                    <li>Display fare rules and baggage information.</li>
+                    <li>Bookings can be made using an online payment system.</li>
+                    <li>Option to print e-tickets to view booking details.</li>
+                    <li>Create financial reports and booking reports.</li>
+                    <li>Manage service tax, mark-up, and supplier commission settings.</li>
+                    <li>Multi-stop/multi-city flights can be booked with a complete fare summary.</li>
+                    <li>Support for several languages.</li>
+                    <li>Global Distribution System (GDS) Integration.</li>
+                    <li>Acceptance of multiple currencies.</li>
+                    <li>Payment gateway secure online.</li>
+                    <li>Users have access to a hassle-free, quick, and error-free online reservation service.</li>
+                    <li>Email notification of ticket bookings, cancellations, and flight delays, among other things.
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footerMenu">
+                <ul>
+                    <li class="FooterMenuHead"><a href="#">Address</a></li>
+                    <li class="addrees">AAI Airport Director Devi Ahilya Bai Holkar Airport, Indore (MP)- 452005</li>
+                </ul>
+                <ul>
+                    <li class="FooterMenuHead"><a href="#">Help & Info</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                </ul>
+                <ul>
+                    <li class="FooterMenuHead"><a href="#">Contact Us</a></li>
+                    <li><a href="#">1809-908-5647</a></li>
+                    <li><a href="#">Get in Touch</a></li>
+                    <li><a href="#">Chat With Us</a></li>
+                </ul>
+                <ul>
+                    <li class="FooterMenuHead">Useful Links<a href="#"></a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Payment Issues</a></li>
+                    <li><a href="#">Net Banking</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="socialIcons">
+                <h3>Follow Us On : </h3>
+                <a href="#"><img src="../assets/facebook-logo 39.png" alt=""></a>
+                <a href="#"><img src="../assets/whatsapp 38.png" alt=""></a>
+                <a href="#"><img src="../assets/instagram-logo 41.png" alt=""></a>
+                <a href="#"><img src="../assets/twitter 30.png" alt=""></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <h5>@2023 Railworld India. All Rights Reserved</h5>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+
+jQuery(document).ready(function(){
+        jQuery('#datepicker').datepicker({
+            changeMonth: true,
+            changeYear: true
+        }).on('focus', function () {
+            if (!jQuery('select').parent().hasClass('fake-selectt')) {
+                jQuery('select').wrap('<span class="fake-selectt"></span>');
+            }
+        });
+
+        jQuery('#datepickerrr').datepicker({
+            changeMonth: true,
+            changeYear: true
+        }).on('focus', function () {
+            if (!jQuery('select').parent().hasClass('fake-selectt')) {
+                jQuery('select').wrap('<span class="fake-selectt"></span>');
+            }
+        });
+
+       
+        jQuery(".MobileBtn").click(function(){
+        jQuery(".mobilemenu").toggle();
+        });
+  });
+
+    </script>
+
 </body>
+
 </html>
